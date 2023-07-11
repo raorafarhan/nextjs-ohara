@@ -13,10 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Navbar className='absolute'></Navbar>
-      <div className='container mx-auto'>
+      <Navbar className='absolute z-50'></Navbar>
       {children}
-      </div>
       </body>
     </html>
   )

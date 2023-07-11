@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="left-0 top-0 z-10 flex w-full items-center bg-transparent">
+    <header className="left-0 top-0 z-50 flex w-full items-center bg-transparent">
       <div className="w-full mx-auto ">
-        <div className="w-full flex relative justify-center items-center border-b-2 box-border shadow-md shadow-purple-100">
+        <div className="w-full flex relative justify-center items-center border-b-2 box-border shadow-md">
           <div className="px-4">
             <Link href="/">
               <Image
