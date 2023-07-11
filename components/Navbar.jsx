@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="sticky left-0 top-0 z-50 flex w-full items-center bg-transparent backdrop-blur-xl">
+    <header className="sticky left-0 top-0 z-50 flex w-full items-center bg-transparent backdrop-blur-xl ">
       <div className="w-full mx-auto ">
-        <div className="w-full flex relative justify-center items-center border-b-2 box-border shadow-md">
+        <div className="w-full flex relative justify-center items-center box-border shadow-md">
           <div className="px-4">
             <Link href="/">
               <Image
@@ -23,23 +23,23 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="ml-12">
-            <div className="bg-white border-gray-300 border-[1px] w-[39rem] h-9 rounded-xl flex items-center justify-between ">
-              <input type="text" className="text-sm ml-3 text-gray-400 border-none focus:outline-none w-full" placeholder="Search"></input>
+            <div className="bg-violet-50 border-gray-300 border-[1px] w-[39rem] h-9 rounded-xl flex items-center justify-between ">
+              <input type="text" className="text-sm ml-3 bg-violet-50 text-gray-400 border-none focus:outline-none w-full" placeholder="Search"></input>
               <Image src={SearchLogo} className="h-[0.85rem] filter grayscale"></Image>
             </div>
           </div>
           <div className="ml-24">
             <div>
               <ul className="flex space-x-20">
-                <li className="cursor-pointer hover:text-purple-800 transition-all duration-300">My Class</li>
-                <li className="cursor-pointer hover:text-purple-800 transition-all duration-300">Be a Lecturer</li>
-                <li className="cursor-pointer hover:text-purple-800 transition-all duration-300 hover:fill-purple-800 ">
+                <li className="cursor-pointer hover:text-violet-800 transition-all duration-300">My Class</li>
+                <li className="cursor-pointer hover:text-violet-800 transition-all duration-300">Be a Lecturer</li>
+                <li className="cursor-pointer hover:text-violet-800 transition-all duration-300 hover:fill-violet-800 ">
                 <Link href={'/'} className="flex">
                   <p className="mr-2">Cart</p>
-                  <Image src={TrollyIcon} width={25} className="stroke-purple-800"></Image>
+                  <Image src={TrollyIcon} width={25} className="stroke-violet-800"></Image>
                 </Link>
                 </li>
-                <li className="cursor-pointer hover:text-purple-800 transition-all duration-300 ">
+                <li className="cursor-pointer hover:text-violet-800 transition-all duration-300 ">
                 <Link href={'/'} className="flex">
                   <p className="mr-2">Profile</p>
                   <Image src={ProfileIcon} width={25} className="fill-current"></Image>

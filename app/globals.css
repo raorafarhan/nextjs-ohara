@@ -3,3 +3,29 @@
 @tailwind utilities;
 
 
+.bg-svg {
+  background-image: url("../assets/img/bg-main-page.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-carousel1 {
+  background-image: url("../assets/img/bg-carousel1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-carousel2 {
+  background-image: url("../assets/img/bg-carousel2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-carousel3 {
+  background-image: url("../assets/img/bg-carousel3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
